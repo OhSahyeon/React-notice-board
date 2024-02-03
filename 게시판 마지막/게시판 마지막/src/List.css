@@ -1,0 +1,76 @@
+
+/* 라스트 보기 */
+#Show_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Show_List_container {
+    width: 940px;
+}
+
+/* 리스트 */
+.List {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.138);
+    transition: 0.1s;
+}
+
+.List:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.138);
+    transition: 0.1s;
+}
+
+.List_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.List_title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.List_name {
+    font-size: 16px;
+    color: rgb(147, 147, 147);
+    margin-right: 5px;
+}
+
+.List_date {
+    font-size: 16px;
+    color: rgb(147, 147, 147);
+}
+
+.List_bot {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.cha_btn {
+    transform: scale(0.9);
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.cha_btn:hover {
+    color: white;
+    background-color: black;
+    transition: 0.1s;
+}
